@@ -1385,9 +1385,325 @@
 		</Item>
 		<Item class="ReflectionMetadataClass">
 			<Properties>
-				<bool name="Browsable">false</bool>
-				<string name="Name">StockSound</string>
+				<string name="Name">EchoSoundEffect</string>
+				<string name="summary">An echo audio effect that can be applied to a Sound or SoundGroup.</string>
+				<string name="ExplorerOrder">2</string>
+				<string name="ExplorerImageIndex">84</string>
 			</Properties>
+			<Item class="ReflectionMetadataProperties">
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">Delay</string>
+						<double name="UIMinimum">0.1</double>
+						<double name="UIMaximum">5</double>
+						<double name="UINumTicks">100</double>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">Feedback</string>
+						<double name="UIMinimum">0</double>
+						<double name="UIMaximum">1</double>
+						<double name="UINumTicks">100</double>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">DryLevel</string>
+						<double name="UIMinimum">-80</double>
+						<double name="UIMaximum">10</double>
+						<double name="UINumTicks">100</double>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">WetLevel</string>
+						<double name="UIMinimum">-80</double>
+						<double name="UIMaximum">100</double>
+						<double name="UINumTicks">100</double>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<string name="Name">FlangeSoundEffect</string>
+				<string name="summary">A Flanging audio effect that can be applied to a Sound or SoundGroup.</string>
+				<string name="ExplorerOrder">2</string>
+				<string name="ExplorerImageIndex">84</string>
+			</Properties>
+			<Item class="ReflectionMetadataProperties">
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">Mix</string>
+						<double name="UIMinimum">0</double>
+						<double name="UIMaximum">1</double>
+						<double name="UINumTicks">100</double>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">Depth</string>
+						<double name="UIMinimum">0.01</double>
+						<double name="UIMaximum">1</double>
+						<double name="UINumTicks">100</double>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">Rate</string>
+						<double name="UIMinimum">0</double>
+						<double name="UIMaximum">20</double>
+						<double name="UINumTicks">100</double>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<string name="Name">DistortionSoundEffect</string>
+				<string name="summary">A Distortion audio effect that can be applied to a Sound or SoundGroup.</string>
+				<string name="ExplorerOrder">2</string>
+				<string name="ExplorerImageIndex">84</string>
+			</Properties>
+			<Item class="ReflectionMetadataProperties">
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">Level</string>
+						<double name="UIMinimum">0</double>
+						<double name="UIMaximum">1</double>
+						<double name="UINumTicks">100</double>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<string name="Name">PitchShiftSoundEffect</string>
+				<string name="summary">A Pitch Shifting audio effect that can be applied to a Sound or SoundGroup.</string>
+				<string name="ExplorerOrder">2</string>
+				<string name="ExplorerImageIndex">84</string>
+			</Properties>
+			<Item class="ReflectionMetadataProperties">
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">Octave</string>
+						<double name="UIMinimum">0.5</double>
+						<double name="UIMaximum">2</double>
+						<double name="UINumTicks">100</double>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<string name="Name">ChorusSoundEffect</string>
+				<string name="summary">A Chorus audio effect that can be applied to a Sound or SoundGroup.</string>
+				<string name="ExplorerOrder">2</string>
+				<string name="ExplorerImageIndex">84</string>
+			</Properties>
+			<Item class="ReflectionMetadataProperties">
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">Mix</string>
+						<double name="UIMinimum">0</double>
+						<double name="UIMaximum">1</double>
+						<double name="UINumTicks">100</double>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">Rate</string>
+						<double name="UIMinimum">0</double>
+						<double name="UIMaximum">20</double>
+						<double name="UINumTicks">100</double>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">Depth</string>
+						<double name="UIMinimum">0</double>
+						<double name="UIMaximum">1</double>
+						<double name="UINumTicks">100</double>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<string name="Name">TremoloSoundEffect</string>
+				<string name="summary">A Tremolo audio effect that can be applied to a Sound or SoundGroup.</string>
+				<string name="ExplorerOrder">2</string>
+				<string name="ExplorerImageIndex">84</string>
+			</Properties>
+			<Item class="ReflectionMetadataProperties">
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">Frequency</string>
+						<double name="UIMinimum">0.1</double>
+						<double name="UIMaximum">20</double>
+						<double name="UINumTicks">100</double>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">Depth</string>
+						<double name="UIMinimum">0</double>
+						<double name="UIMaximum">1</double>
+						<double name="UINumTicks">100</double>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">Duty</string>
+						<double name="UIMinimum">0</double>
+						<double name="UIMaximum">1</double>
+						<double name="UINumTicks">100</double>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<string name="Name">ReverbSoundEffect</string>
+				<string name="summary">A Reverb audio effect that can be applied to a Sound or SoundGroup.</string>
+				<string name="ExplorerOrder">2</string>
+				<string name="ExplorerImageIndex">84</string>
+			</Properties>
+			<Item class="ReflectionMetadataProperties">
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">DecayTime</string>
+						<double name="UIMinimum">0.1</double>
+						<double name="UIMaximum">20</double>
+						<double name="UINumTicks">100</double>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">Diffusion</string>
+						<double name="UIMinimum">0</double>
+						<double name="UIMaximum">1</double>
+						<double name="UINumTicks">100</double>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">Density</string>
+						<double name="UIMinimum">0</double>
+						<double name="UIMaximum">1</double>
+						<double name="UINumTicks">100</double>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">DryLevel</string>
+						<double name="UIMinimum">-80</double>
+						<double name="UIMaximum">20</double>
+						<double name="UINumTicks">100</double>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">WetLevel</string>
+						<double name="UIMinimum">-80</double>
+						<double name="UIMaximum">20</double>
+						<double name="UINumTicks">100</double>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<string name="Name">EqualizerSoundEffect</string>
+				<string name="summary">An Three-band Equalizer audio effect that can be applied to a Sound or SoundGroup.</string>
+				<string name="ExplorerOrder">2</string>
+				<string name="ExplorerImageIndex">84</string>
+			</Properties>
+			<Item class="ReflectionMetadataProperties">
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">LowGain</string>
+						<double name="UIMinimum">-80</double>
+						<double name="UIMaximum">10</double>
+						<double name="UINumTicks">100</double>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">MidGain</string>
+						<double name="UIMinimum">-80</double>
+						<double name="UIMaximum">10</double>
+						<double name="UINumTicks">100</double>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">HighGain</string>
+						<double name="UIMinimum">-80</double>
+						<double name="UIMaximum">10</double>
+						<double name="UINumTicks">100</double>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<string name="Name">CompressorSoundEffect</string>
+				<string name="summary">A Compressor audio effect that can be applied to a Sound or SoundGroup.</string>
+				<string name="ExplorerOrder">2</string>
+				<string name="ExplorerImageIndex">84</string>
+			</Properties>
+			<Item class="ReflectionMetadataProperties">
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">Threshold</string>
+						<double name="UIMinimum">-80</double>
+						<double name="UIMaximum">0</double>
+						<double name="UINumTicks">100</double>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">Attack</string>
+						<double name="UIMinimum">0.001</double>
+						<double name="UIMaximum">1</double>
+						<double name="UINumTicks">100</double>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">Release</string>
+						<double name="UIMinimum">0.001</double>
+						<double name="UIMaximum">5</double>
+						<double name="UINumTicks">100</double>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">Ratio</string>
+						<double name="UIMinimum">1</double>
+						<double name="UIMaximum">50</double>
+						<double name="UINumTicks">100</double>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">GainMakeup</string>
+						<double name="UIMinimum">0</double>
+						<double name="UIMaximum">30</double>
+						<double name="UINumTicks">100</double>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<string name="Name">SoundGroup</string>
+				<string name="ExplorerOrder">2</string>
+				<string name="ExplorerImageIndex">85</string>
+			</Properties>
+			<Item class="ReflectionMetadataProperties"></Item>
 		</Item>
 		<Item class="ReflectionMetadataClass">
 			<Properties>
@@ -1853,7 +2169,6 @@
 				<string name="Name">ColorCorrectionEffect</string>
 			</Properties>
 			<Item class="ReflectionMetadataProperties">
-
 				<Item class="ReflectionMetadataMember">
 					<Properties>
 						<string name="Name">Brightness</string>
@@ -1895,7 +2210,7 @@
 					<Properties>
 						<string name="Name">Threshold</string>
 						<double name="UIMaximum">1</double>
-						<double name="UIMinimum">0.80000000000000004</double>
+						<double name="UIMinimum">0.8</double>
 					</Properties>
 				</Item>
 				<Item class="ReflectionMetadataMember">
